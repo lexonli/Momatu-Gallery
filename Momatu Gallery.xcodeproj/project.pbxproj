@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008A50902576249E00B3D926 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A508F2576249E00B3D926 /* AppDelegate.swift */; };
+		008A50922576249E00B3D926 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50912576249E00B3D926 /* SceneDelegate.swift */; };
+		008A50942576249E00B3D926 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50932576249E00B3D926 /* ViewController.swift */; };
+		008A50972576249E00B3D926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A50952576249E00B3D926 /* Main.storyboard */; };
+		008A5099257624A300B3D926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008A5098257624A300B3D926 /* Assets.xcassets */; };
+		008A509C257624A300B3D926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A509A257624A300B3D926 /* LaunchScreen.storyboard */; };
+		008A50A7257624A400B3D926 /* Momatu_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50A6257624A400B3D926 /* Momatu_GalleryTests.swift */; };
+		008A50B2257624A400B3D926 /* Momatu_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50B1257624A400B3D926 /* Momatu_GalleryUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008A50A3257624A400B3D926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008A50842576249E00B3D926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008A508B2576249E00B3D926;
+			remoteInfo = "Momatu Gallery";
+		};
+		008A50AE257624A400B3D926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 008A50842576249E00B3D926 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 008A508B2576249E00B3D926;
+			remoteInfo = "Momatu Gallery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008A508C2576249E00B3D926 /* Momatu Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Momatu Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008A508F2576249E00B3D926 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		008A50912576249E00B3D926 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		008A50932576249E00B3D926 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		008A50962576249E00B3D926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		008A5098257624A300B3D926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		008A509B257624A300B3D926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		008A509D257624A300B3D926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008A50A2257624A400B3D926 /* Momatu GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Momatu GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008A50A6257624A400B3D926 /* Momatu_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Momatu_GalleryTests.swift; sourceTree = "<group>"; };
+		008A50A8257624A400B3D926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		008A50AD257624A400B3D926 /* Momatu GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Momatu GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008A50B1257624A400B3D926 /* Momatu_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Momatu_GalleryUITests.swift; sourceTree = "<group>"; };
+		008A50B3257624A400B3D926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		008A50892576249E00B3D926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008A509F257624A400B3D926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008A50AA257624A400B3D926 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008A50832576249E00B3D926 = {
+			isa = PBXGroup;
+			children = (
+				008A508E2576249E00B3D926 /* Momatu Gallery */,
+				008A50A5257624A400B3D926 /* Momatu GalleryTests */,
+				008A50B0257624A400B3D926 /* Momatu GalleryUITests */,
+				008A508D2576249E00B3D926 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		008A508D2576249E00B3D926 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				008A508C2576249E00B3D926 /* Momatu Gallery.app */,
+				008A50A2257624A400B3D926 /* Momatu GalleryTests.xctest */,
+				008A50AD257624A400B3D926 /* Momatu GalleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		008A508E2576249E00B3D926 /* Momatu Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				008A508F2576249E00B3D926 /* AppDelegate.swift */,
+				008A50912576249E00B3D926 /* SceneDelegate.swift */,
+				008A50932576249E00B3D926 /* ViewController.swift */,
+				008A50952576249E00B3D926 /* Main.storyboard */,
+				008A5098257624A300B3D926 /* Assets.xcassets */,
+				008A509A257624A300B3D926 /* LaunchScreen.storyboard */,
+				008A509D257624A300B3D926 /* Info.plist */,
+			);
+			path = "Momatu Gallery";
+			sourceTree = "<group>";
+		};
+		008A50A5257624A400B3D926 /* Momatu GalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				008A50A6257624A400B3D926 /* Momatu_GalleryTests.swift */,
+				008A50A8257624A400B3D926 /* Info.plist */,
+			);
+			path = "Momatu GalleryTests";
+			sourceTree = "<group>";
+		};
+		008A50B0257624A400B3D926 /* Momatu GalleryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				008A50B1257624A400B3D926 /* Momatu_GalleryUITests.swift */,
+				008A50B3257624A400B3D926 /* Info.plist */,
+			);
+			path = "Momatu GalleryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		008A508B2576249E00B3D926 /* Momatu Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008A50B6257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu Gallery" */;
+			buildPhases = (
+				008A50882576249E00B3D926 /* Sources */,
+				008A50892576249E00B3D926 /* Frameworks */,
+				008A508A2576249E00B3D926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Momatu Gallery";
+			productName = "Momatu Gallery";
+			productReference = 008A508C2576249E00B3D926 /* Momatu Gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		008A50A1257624A400B3D926 /* Momatu GalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008A50B9257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryTests" */;
+			buildPhases = (
+				008A509E257624A400B3D926 /* Sources */,
+				008A509F257624A400B3D926 /* Frameworks */,
+				008A50A0257624A400B3D926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008A50A4257624A400B3D926 /* PBXTargetDependency */,
+			);
+			name = "Momatu GalleryTests";
+			productName = "Momatu GalleryTests";
+			productReference = 008A50A2257624A400B3D926 /* Momatu GalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		008A50AC257624A400B3D926 /* Momatu GalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 008A50BC257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryUITests" */;
+			buildPhases = (
+				008A50A9257624A400B3D926 /* Sources */,
+				008A50AA257624A400B3D926 /* Frameworks */,
+				008A50AB257624A400B3D926 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				008A50AF257624A400B3D926 /* PBXTargetDependency */,
+			);
+			name = "Momatu GalleryUITests";
+			productName = "Momatu GalleryUITests";
+			productReference = 008A50AD257624A400B3D926 /* Momatu GalleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		008A50842576249E00B3D926 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					008A508B2576249E00B3D926 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					008A50A1257624A400B3D926 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 008A508B2576249E00B3D926;
+					};
+					008A50AC257624A400B3D926 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 008A508B2576249E00B3D926;
+					};
+				};
+			};
+			buildConfigurationList = 008A50872576249E00B3D926 /* Build configuration list for PBXProject "Momatu Gallery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 008A50832576249E00B3D926;
+			productRefGroup = 008A508D2576249E00B3D926 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				008A508B2576249E00B3D926 /* Momatu Gallery */,
+				008A50A1257624A400B3D926 /* Momatu GalleryTests */,
+				008A50AC257624A400B3D926 /* Momatu GalleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		008A508A2576249E00B3D926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A509C257624A300B3D926 /* LaunchScreen.storyboard in Resources */,
+				008A5099257624A300B3D926 /* Assets.xcassets in Resources */,
+				008A50972576249E00B3D926 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008A50A0257624A400B3D926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008A50AB257624A400B3D926 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		008A50882576249E00B3D926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A50942576249E00B3D926 /* ViewController.swift in Sources */,
+				008A50902576249E00B3D926 /* AppDelegate.swift in Sources */,
+				008A50922576249E00B3D926 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008A509E257624A400B3D926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A50A7257624A400B3D926 /* Momatu_GalleryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		008A50A9257624A400B3D926 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				008A50B2257624A400B3D926 /* Momatu_GalleryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		008A50A4257624A400B3D926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008A508B2576249E00B3D926 /* Momatu Gallery */;
+			targetProxy = 008A50A3257624A400B3D926 /* PBXContainerItemProxy */;
+		};
+		008A50AF257624A400B3D926 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 008A508B2576249E00B3D926 /* Momatu Gallery */;
+			targetProxy = 008A50AE257624A400B3D926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		008A50952576249E00B3D926 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008A50962576249E00B3D926 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		008A509A257624A300B3D926 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				008A509B257624A300B3D926 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		008A50B4257624A400B3D926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		008A50B5257624A400B3D926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		008A50B7257624A400B3D926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHABLFUM57;
+				INFOPLIST_FILE = "Momatu Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		008A50B8257624A400B3D926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHABLFUM57;
+				INFOPLIST_FILE = "Momatu Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		008A50BA257624A400B3D926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHABLFUM57;
+				INFOPLIST_FILE = "Momatu GalleryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momatu Gallery.app/Momatu Gallery";
+			};
+			name = Debug;
+		};
+		008A50BB257624A400B3D926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHABLFUM57;
+				INFOPLIST_FILE = "Momatu GalleryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momatu Gallery.app/Momatu Gallery";
+			};
+			name = Release;
+		};
+		008A50BD257624A400B3D926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHABLFUM57;
+				INFOPLIST_FILE = "Momatu GalleryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Momatu Gallery";
+			};
+			name = Debug;
+		};
+		008A50BE257624A400B3D926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RHABLFUM57;
+				INFOPLIST_FILE = "Momatu GalleryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Momatu Gallery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		008A50872576249E00B3D926 /* Build configuration list for PBXProject "Momatu Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008A50B4257624A400B3D926 /* Debug */,
+				008A50B5257624A400B3D926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008A50B6257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008A50B7257624A400B3D926 /* Debug */,
+				008A50B8257624A400B3D926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008A50B9257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008A50BA257624A400B3D926 /* Debug */,
+				008A50BB257624A400B3D926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		008A50BC257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				008A50BD257624A400B3D926 /* Debug */,
+				008A50BE257624A400B3D926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 008A50842576249E00B3D926 /* Project object */;
+}
