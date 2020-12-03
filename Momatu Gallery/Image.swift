@@ -15,8 +15,6 @@ struct Image: Decodable {
     var url: String
     var downloadUrl: String
     
-    var uiImage: UIImage?
-    
     enum CodingKeys: String, CodingKey {
         case id
         case author
@@ -25,4 +23,16 @@ struct Image: Decodable {
         case url
         case downloadUrl = "download_url"
     }
+    
+    lazy var imageUrl: String = {
+        var pixelWidth = width
+        var pixelHeight = height
+        
+        if width > ImageConstants.maxPixelWidth {
+            pixelWidth = ImageConstants.maxPixelWidth
+            pixelHeight = height * pixelWidth / width
+        }
+        
+        return "\(PicsumConstants.photoBaseUrl)/\(id)/\(pixelWidth)/\(pixelHeight)"
+    }()
 }

@@ -57,16 +57,19 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let imageCell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageCell.identifier, for: indexPath) as! ImageCell
-        imageCell.image = images[indexPath.item].uiImage
-        return imageCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ImageCell.identifier, for: indexPath) as! ImageCell
+        cell.image = images[indexPath.item]
+        return cell
     }
 }
 
 extension ViewController: UICollectionViewDelegateFlowLayout {
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let image = images[indexPath.item]
         let width = view.frame.width/2 - 10
-        return CGSize(width: width, height: width)
+        let height = CGFloat(image.height * Int(width)/image.width)
+        print("height: ", height)
+        return CGSize(width: width, height: height)
     }
 }
