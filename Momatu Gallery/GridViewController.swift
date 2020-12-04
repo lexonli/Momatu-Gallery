@@ -9,9 +9,9 @@ import SnapKit
 
 class GridViewController: UIViewController {
     
-    var page = 1
+    private var currentPage = 1
     
-    var images = [Image]()
+    private var images = [Image]()
 
     let collectionView: UICollectionView = {
         let layout = GridLayout()
@@ -23,11 +23,10 @@ class GridViewController: UIViewController {
         super.viewDidLoad()
         addSubviews()
         setupCollectionView()
-        Server.shared.fetchImages(page: page, completion: { (images) in
+        Server.shared.fetchImages(page: currentPage, completion: { (images) in
             guard let images = images else { return }
-            self.page += 1
+            self.currentPage += 1
             self.images = images
-            self.numberOfItems += images.count
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
             }
@@ -53,14 +52,12 @@ class GridViewController: UIViewController {
         }
 
     }
-    
-    var numberOfItems = 0
 }
 
 extension GridViewController: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return numberOfItems
+        return images.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -75,11 +72,10 @@ extension GridViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         if indexPath.item == images.count - 5 {
             print("Fetching next 30 items from \(images.count)")
-            Server.shared.fetchImages(page: page) { (images) in
+            Server.shared.fetchImages(page: currentPage) { (images) in
                 guard let images = images else { return }
                 self.images.append(contentsOf: images)
-                self.numberOfItems += images.count
-                self.page += 1
+                self.currentPage += 1
                 DispatchQueue.main.async {
                     self.collectionView.reloadData()
                 }
