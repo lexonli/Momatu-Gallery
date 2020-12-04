@@ -73,9 +73,7 @@ extension GridViewController: UICollectionViewDataSource {
 extension GridViewController: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        print("Will display cell ", indexPath.item)
         if indexPath.item == images.count - 5 {
-            print("Scrolled to: ", indexPath.item)
             print("Fetching next 30 items from \(images.count)")
             Server.shared.fetchImages(page: page) { (images) in
                 guard let images = images else { return }
