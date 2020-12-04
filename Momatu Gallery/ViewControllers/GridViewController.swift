@@ -12,6 +12,8 @@ class GridViewController: UIViewController {
     private var currentPage = 1
     
     private var images = [Image]()
+    
+    //MARK: UI Elements
 
     let collectionView: UICollectionView = {
         let layout = GridLayout()
@@ -32,6 +34,8 @@ class GridViewController: UIViewController {
             }
         })
     }
+    
+    //MARK: Setup UI methods
     
     private func addSubviews() {
         [collectionView].forEach { (subview) in
@@ -70,8 +74,8 @@ extension GridViewController: UICollectionViewDataSource {
 extension GridViewController: UICollectionViewDelegate {
 
     func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        if indexPath.item == images.count - 5 {
-            print("Fetching next 30 items from \(images.count)")
+        //handle pagination
+        if indexPath.item == images.count - GridConstants.numberOfItemsTillEndForLoading {
             Server.shared.fetchImages(page: currentPage) { (images) in
                 guard let images = images else { return }
                 self.images.append(contentsOf: images)
@@ -85,10 +89,11 @@ extension GridViewController: UICollectionViewDelegate {
 }
 
 extension GridViewController: GridLayoutDelegate {
+    
     func collectionView(_ collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath:IndexPath) -> CGFloat {
         let image = images[indexPath.item]
-        let width = collectionView.frame.width/CGFloat(GridConstants.numberOfColumns) - 10
-        let height = CGFloat(image.height * Int(width)/image.width) + 40
+        let width = collectionView.frame.width/CGFloat(GridConstants.numberOfColumns) - GridConstants.cellPadding * 2
+        let height = CGFloat(image.height * Int(width)/image.width) + ImageCellConstants.authorLabelHeight
         return height
     }
 }

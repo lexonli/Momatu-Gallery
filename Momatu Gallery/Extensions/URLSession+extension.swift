@@ -12,6 +12,11 @@ extension URLSession {
     
     typealias DataTaskCompletionHandler = ((Data?, URLResponse?, Error?) -> ())
     
+    /// Gets a data task that performs a GET network request
+    /// - Parameters:
+    ///   - url: The url to perform the GET
+    ///   - result: A result object that contains the data if success, APIServiceError if failed
+    /// - Returns: The URLSessionDataTask that performs the GET request
     func get(with url: String, result: @escaping (Result<Data, APIServiceError>) -> Void) -> URLSessionDataTask {
         let url = URL(string: url)!
         let request = URLRequest(url: url)

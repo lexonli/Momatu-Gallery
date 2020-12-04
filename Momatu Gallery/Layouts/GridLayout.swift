@@ -7,13 +7,14 @@
 
 import UIKit
 
+//Referenced from: https://www.raywenderlich.com/4829472-uicollectionview-custom-layout-tutorial-pinterest
 class GridLayout: UICollectionViewLayout {
 
     weak var delegate: GridLayoutDelegate?
     
 
-    private let numberOfColumns = GridConstants.numberOfColumns
-    private let cellPadding: CGFloat = 6
+    private let numberOfColumns: Int = GridConstants.numberOfColumns
+    private let cellPadding: CGFloat = GridConstants.cellPadding
     
 
     private var cache: [UICollectionViewLayoutAttributes] = []

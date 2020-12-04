@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// Handles an in memory cache of image urls to the respective UIImage
 class Cache {
     
     static let shared = Cache()

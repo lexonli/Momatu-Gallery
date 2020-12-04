@@ -7,6 +7,8 @@
 
 import UIKit
 
+
+/// `Image` models an element of https://picsum.photos/v2/list
 struct Image: Decodable {
     var id: String
     var author: String

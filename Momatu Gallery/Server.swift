@@ -12,10 +12,12 @@ class Server {
     
     static let shared = Server()
     
-    private let listUrl = "https://picsum.photos/v2/list"
-    
+    /// Fetches images from the Picsum image list API
+    /// - Parameters:
+    ///   - page: Current page in the grid
+    ///   - completion: A completion handler that takes takes an array of images if successful, nil if failed
     func fetchImages(page: Int, completion: @escaping ([Image]?)->()) {
-        URLSession.shared.get(with: "\(listUrl)?page=\(page)") { (result) in
+        URLSession.shared.get(with: "\(PicsumConstants.photoListUrl)?page=\(page)") { (result) in
             switch (result) {
                 case .success(let data):
                     do {
