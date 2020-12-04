@@ -11,17 +11,28 @@ class ImageCell: UICollectionViewCell {
     
     static let identifier = "ImageCell"
     
+    let prefix = "By "
+    
     var image: Image? {
         didSet {
             guard var image = image else { return }
-            self.authorLabel.text = image.author
+            
+            let attributedString = NSMutableAttributedString(string: prefix + image.author)
+            
+            //make by bold
+            attributedString.addAttribute(NSAttributedString.Key.font, value: UIFont.boldSystemFont(ofSize: 15), range: NSRange(location: 0, length: prefix.count))
+            
+            //make author text font
+            attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.black, range: NSRange(location: prefix.count, length: image.author.count))
+            
+            self.authorLabel.attributedText = attributedString
+            
+            //add image
             self.imageView.image = nil
-            Cache.shared.loadImage(withUrl: image.imageUrl) { (image) in
+            Cache.shared.loadImage(withUrl: image.imageUrl) { [weak self] (image) in
                 guard let image = image else { return }
                 DispatchQueue.main.async {
-                    print("storing image")
-                    self.imageView.image = image
-                    print("done image")
+                    self?.imageView.image = image
                 }
             }
         }
@@ -48,12 +59,13 @@ class ImageCell: UICollectionViewCell {
         imageView.contentMode = .scaleAspectFill
         imageView.snp.makeConstraints { (make) in
             make.left.top.right.equalToSuperview()
-            make.bottom.equalToSuperview()
+            make.bottom.equalTo(authorLabel.snp.top)
         }
     }
     
     private func setupAuthorLabel() {
         authorLabel.text = "Peter Johnson"
+        authorLabel.backgroundColor = .yellow
         authorLabel.font = UIFont.systemFont(ofSize: 15)
         authorLabel.snp.makeConstraints { (make) in
             make.height.equalTo(40)

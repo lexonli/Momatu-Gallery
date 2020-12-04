@@ -12,15 +12,25 @@ class Server {
     
     static let shared = Server()
     
-    func fetchImages(completion: @escaping ([Image]?)->()) {
-        do {
-            let decoder = JSONDecoder()
-            let images = try decoder.decode([Image].self, from: data)
-            completion(images)
-        } catch {
-            print(error)
-            completion(nil)
-        }
+    private let listUrl = "https://picsum.photos/v2/list"
+    
+    func fetchImages(page: Int, completion: @escaping ([Image]?)->()) {
+        URLSession.shared.get(with: "\(listUrl)?page=\(page)") { (result) in
+            switch (result) {
+                case .success(let data):
+                    do {
+                        let decoder = JSONDecoder()
+                        let images = try decoder.decode([Image].self, from: data)
+                        completion(images)
+                    } catch {
+                        print(error)
+                        completion(nil)
+                    }
+                case .failure(let error):
+                    print(error)
+                    completion(nil)
+            }
+        }.resume()
     }
     
     let data = Data("""

@@ -13,12 +13,12 @@ struct ImageConstants {
         let nativeHeight = UIScreen.main.nativeBounds.height
 
         let horizontalLength = min(nativeWidth, nativeHeight)
-        return Int(horizontalLength / CGFloat(GridConstants.verticalColumns))
+        return Int(horizontalLength / CGFloat(GridConstants.numberOfColumns))
     }()
 }
 
 struct GridConstants {
-    static let verticalColumns = 2
+    static let numberOfColumns = 2
 }
 
 struct PicsumConstants {

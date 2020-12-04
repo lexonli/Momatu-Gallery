@@ -37,4 +37,30 @@ class Cache {
             }
         }.resume()
     }
+    
+//    func loadImageTask(withUrl url: String, completion: @escaping (String, UIImage?) -> ()) -> URLSessionTask? {
+//        if let image = imageCache.object(forKey: NSString(string: url)) {
+//            completion(url, image)
+//            return nil
+//        } else {
+//            return getImageTask(withUrl: url, completion: completion)
+//        }
+//    }
+//
+//    private func getImageTask(withUrl url: String, completion: @escaping (String, UIImage?) -> ()) -> URLSessionTask {
+//        URLSession.shared.get(with: url) { (result) in
+//            switch (result) {
+//                case .success(let data):
+//                    guard let image = UIImage(data: data) else {
+//                        completion(url, nil)
+//                        return
+//                    }
+//                    self.imageCache.setObject(image, forKey: NSString(string: url))
+//                    completion(url, image)
+//                case .failure(let error):
+//                    print(error)
+//                    completion(url, nil)
+//            }
+//        }
+//    }
 }
