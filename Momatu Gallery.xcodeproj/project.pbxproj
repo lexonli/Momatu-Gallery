@@ -13,53 +13,16 @@
 		008A50972576249E00B3D926 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A50952576249E00B3D926 /* Main.storyboard */; };
 		008A5099257624A300B3D926 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008A5098257624A300B3D926 /* Assets.xcassets */; };
 		008A509C257624A300B3D926 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 008A509A257624A300B3D926 /* LaunchScreen.storyboard */; };
-		008A50A7257624A400B3D926 /* Momatu_GalleryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50A6257624A400B3D926 /* Momatu_GalleryTests.swift */; };
-		008A50B2257624A400B3D926 /* Momatu_GalleryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50B1257624A400B3D926 /* Momatu_GalleryUITests.swift */; };
 		008A50C32576264D00B3D926 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50C22576264D00B3D926 /* Server.swift */; };
-		008A50C42576264D00B3D926 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50C22576264D00B3D926 /* Server.swift */; };
-		008A50C52576264D00B3D926 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50C22576264D00B3D926 /* Server.swift */; };
 		008A50D6257678F400B3D926 /* URLSession+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50D5257678F400B3D926 /* URLSession+extension.swift */; };
-		008A50D7257678F400B3D926 /* URLSession+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50D5257678F400B3D926 /* URLSession+extension.swift */; };
-		008A50D8257678F400B3D926 /* URLSession+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50D5257678F400B3D926 /* URLSession+extension.swift */; };
 		008A50DD257697A200B3D926 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50DC257697A200B3D926 /* Image.swift */; };
-		008A50DE257697A200B3D926 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50DC257697A200B3D926 /* Image.swift */; };
-		008A50DF257697A200B3D926 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50DC257697A200B3D926 /* Image.swift */; };
 		008A50E425772E5700B3D926 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50E325772E5700B3D926 /* ImageCell.swift */; };
-		008A50E525772E5700B3D926 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50E325772E5700B3D926 /* ImageCell.swift */; };
-		008A50E625772E5700B3D926 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A50E325772E5700B3D926 /* ImageCell.swift */; };
 		008A51032577B99900B3D926 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A51022577B99900B3D926 /* Cache.swift */; };
-		008A51042577B99900B3D926 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A51022577B99900B3D926 /* Cache.swift */; };
-		008A51052577B99900B3D926 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A51022577B99900B3D926 /* Cache.swift */; };
 		008A51142578712800B3D926 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A51132578712800B3D926 /* Constants.swift */; };
-		008A51152578712800B3D926 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A51132578712800B3D926 /* Constants.swift */; };
-		008A51162578712800B3D926 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A51132578712800B3D926 /* Constants.swift */; };
 		00B8F6D225789970001E14DB /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8F6D125789970001E14DB /* GridLayout.swift */; };
-		00B8F6D325789970001E14DB /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8F6D125789970001E14DB /* GridLayout.swift */; };
-		00B8F6D425789970001E14DB /* GridLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8F6D125789970001E14DB /* GridLayout.swift */; };
 		00B8F6DA257A10C3001E14DB /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8F6D9257A10C3001E14DB /* UIView+extension.swift */; };
-		00B8F6DB257A10C3001E14DB /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8F6D9257A10C3001E14DB /* UIView+extension.swift */; };
-		00B8F6DC257A10C3001E14DB /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8F6D9257A10C3001E14DB /* UIView+extension.swift */; };
-		0CE7B8059338482167EC2506 /* Pods_Momatu_Gallery_Momatu_GalleryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 659E6AEC2FC0EA594C0B2C69 /* Pods_Momatu_Gallery_Momatu_GalleryUITests.framework */; };
 		574DF17A4AFE2354F901C540 /* Pods_Momatu_Gallery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6709DCA4248DB0A59C715902 /* Pods_Momatu_Gallery.framework */; };
-		FDCB57C19D8F2251D14E1BFA /* Pods_Momatu_GalleryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7FCA90BF0E01CB69790A801 /* Pods_Momatu_GalleryTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		008A50A3257624A400B3D926 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 008A50842576249E00B3D926 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 008A508B2576249E00B3D926;
-			remoteInfo = "Momatu Gallery";
-		};
-		008A50AE257624A400B3D926 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 008A50842576249E00B3D926 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 008A508B2576249E00B3D926;
-			remoteInfo = "Momatu Gallery";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008A508C2576249E00B3D926 /* Momatu Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Momatu Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -70,12 +33,6 @@
 		008A5098257624A300B3D926 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008A509B257624A300B3D926 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008A509D257624A300B3D926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		008A50A2257624A400B3D926 /* Momatu GalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Momatu GalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		008A50A6257624A400B3D926 /* Momatu_GalleryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Momatu_GalleryTests.swift; sourceTree = "<group>"; };
-		008A50A8257624A400B3D926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		008A50AD257624A400B3D926 /* Momatu GalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Momatu GalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		008A50B1257624A400B3D926 /* Momatu_GalleryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Momatu_GalleryUITests.swift; sourceTree = "<group>"; };
-		008A50B3257624A400B3D926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		008A50C22576264D00B3D926 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		008A50D5257678F400B3D926 /* URLSession+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession+extension.swift"; sourceTree = "<group>"; };
 		008A50DC257697A200B3D926 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
@@ -104,22 +61,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		008A509F257624A400B3D926 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDCB57C19D8F2251D14E1BFA /* Pods_Momatu_GalleryTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		008A50AA257624A400B3D926 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0CE7B8059338482167EC2506 /* Pods_Momatu_Gallery_Momatu_GalleryUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -127,8 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				008A508E2576249E00B3D926 /* Momatu Gallery */,
-				008A50A5257624A400B3D926 /* Momatu GalleryTests */,
-				008A50B0257624A400B3D926 /* Momatu GalleryUITests */,
 				008A508D2576249E00B3D926 /* Products */,
 				F4C0F5916343A998AE4B1A19 /* Pods */,
 				F057C0716901179B2F9FDD35 /* Frameworks */,
@@ -139,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				008A508C2576249E00B3D926 /* Momatu Gallery.app */,
-				008A50A2257624A400B3D926 /* Momatu GalleryTests.xctest */,
-				008A50AD257624A400B3D926 /* Momatu GalleryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,39 +87,69 @@
 			children = (
 				008A508F2576249E00B3D926 /* AppDelegate.swift */,
 				008A50912576249E00B3D926 /* SceneDelegate.swift */,
-				008A50932576249E00B3D926 /* GridViewController.swift */,
-				008A50952576249E00B3D926 /* Main.storyboard */,
-				008A50E325772E5700B3D926 /* ImageCell.swift */,
 				008A50C22576264D00B3D926 /* Server.swift */,
-				00B8F6D125789970001E14DB /* GridLayout.swift */,
 				008A51022577B99900B3D926 /* Cache.swift */,
-				008A50D5257678F400B3D926 /* URLSession+extension.swift */,
-				00B8F6D9257A10C3001E14DB /* UIView+extension.swift */,
 				008A51132578712800B3D926 /* Constants.swift */,
-				008A50DC257697A200B3D926 /* Image.swift */,
+				00B8F6FB257A1AB1001E14DB /* Layouts */,
+				00B8F6FA257A1A30001E14DB /* Storyboard */,
+				00B8F6F5257A19EF001E14DB /* Views */,
+				00B8F6E7257A19CF001E14DB /* ViewControllers */,
+				00B8F6E3257A19B9001E14DB /* Model */,
+				00B8F6F9257A1A04001E14DB /* Extensions */,
 				008A5098257624A300B3D926 /* Assets.xcassets */,
-				008A509A257624A300B3D926 /* LaunchScreen.storyboard */,
 				008A509D257624A300B3D926 /* Info.plist */,
 			);
 			path = "Momatu Gallery";
 			sourceTree = "<group>";
 		};
-		008A50A5257624A400B3D926 /* Momatu GalleryTests */ = {
+		00B8F6E3257A19B9001E14DB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				008A50A6257624A400B3D926 /* Momatu_GalleryTests.swift */,
-				008A50A8257624A400B3D926 /* Info.plist */,
+				008A50DC257697A200B3D926 /* Image.swift */,
 			);
-			path = "Momatu GalleryTests";
+			path = Model;
 			sourceTree = "<group>";
 		};
-		008A50B0257624A400B3D926 /* Momatu GalleryUITests */ = {
+		00B8F6E7257A19CF001E14DB /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				008A50B1257624A400B3D926 /* Momatu_GalleryUITests.swift */,
-				008A50B3257624A400B3D926 /* Info.plist */,
+				008A50932576249E00B3D926 /* GridViewController.swift */,
 			);
-			path = "Momatu GalleryUITests";
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		00B8F6F5257A19EF001E14DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				008A50E325772E5700B3D926 /* ImageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00B8F6F9257A1A04001E14DB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				008A50D5257678F400B3D926 /* URLSession+extension.swift */,
+				00B8F6D9257A10C3001E14DB /* UIView+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		00B8F6FA257A1A30001E14DB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				008A509A257624A300B3D926 /* LaunchScreen.storyboard */,
+				008A50952576249E00B3D926 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		00B8F6FB257A1AB1001E14DB /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				00B8F6D125789970001E14DB /* GridLayout.swift */,
+			);
+			path = Layouts;
 			sourceTree = "<group>";
 		};
 		F057C0716901179B2F9FDD35 /* Frameworks */ = {
@@ -230,45 +197,6 @@
 			productReference = 008A508C2576249E00B3D926 /* Momatu Gallery.app */;
 			productType = "com.apple.product-type.application";
 		};
-		008A50A1257624A400B3D926 /* Momatu GalleryTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 008A50B9257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryTests" */;
-			buildPhases = (
-				F980D74D9C61B2A7FA6EF312 /* [CP] Check Pods Manifest.lock */,
-				008A509E257624A400B3D926 /* Sources */,
-				008A509F257624A400B3D926 /* Frameworks */,
-				008A50A0257624A400B3D926 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				008A50A4257624A400B3D926 /* PBXTargetDependency */,
-			);
-			name = "Momatu GalleryTests";
-			productName = "Momatu GalleryTests";
-			productReference = 008A50A2257624A400B3D926 /* Momatu GalleryTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		008A50AC257624A400B3D926 /* Momatu GalleryUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 008A50BC257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryUITests" */;
-			buildPhases = (
-				074639712E6C170937174709 /* [CP] Check Pods Manifest.lock */,
-				008A50A9257624A400B3D926 /* Sources */,
-				008A50AA257624A400B3D926 /* Frameworks */,
-				008A50AB257624A400B3D926 /* Resources */,
-				D132AA928194C8E041462921 /* [CP] Embed Pods Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				008A50AF257624A400B3D926 /* PBXTargetDependency */,
-			);
-			name = "Momatu GalleryUITests";
-			productName = "Momatu GalleryUITests";
-			productReference = 008A50AD257624A400B3D926 /* Momatu GalleryUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -280,14 +208,6 @@
 				TargetAttributes = {
 					008A508B2576249E00B3D926 = {
 						CreatedOnToolsVersion = 12.0.1;
-					};
-					008A50A1257624A400B3D926 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 008A508B2576249E00B3D926;
-					};
-					008A50AC257624A400B3D926 = {
-						CreatedOnToolsVersion = 12.0.1;
-						TestTargetID = 008A508B2576249E00B3D926;
 					};
 				};
 			};
@@ -305,8 +225,6 @@
 			projectRoot = "";
 			targets = (
 				008A508B2576249E00B3D926 /* Momatu Gallery */,
-				008A50A1257624A400B3D926 /* Momatu GalleryTests */,
-				008A50AC257624A400B3D926 /* Momatu GalleryUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,45 +240,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		008A50A0257624A400B3D926 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		008A50AB257624A400B3D926 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		074639712E6C170937174709 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Momatu Gallery-Momatu GalleryUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2EF7C16C73DAA619F7E7365C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -400,45 +282,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Momatu Gallery/Pods-Momatu Gallery-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D132AA928194C8E041462921 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Momatu Gallery-Momatu GalleryUITests/Pods-Momatu Gallery-Momatu GalleryUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Momatu Gallery-Momatu GalleryUITests/Pods-Momatu Gallery-Momatu GalleryUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Momatu Gallery-Momatu GalleryUITests/Pods-Momatu Gallery-Momatu GalleryUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F980D74D9C61B2A7FA6EF312 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Momatu GalleryTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -460,52 +303,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		008A509E257624A400B3D926 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				008A50C42576264D00B3D926 /* Server.swift in Sources */,
-				008A50DE257697A200B3D926 /* Image.swift in Sources */,
-				008A51152578712800B3D926 /* Constants.swift in Sources */,
-				00B8F6DB257A10C3001E14DB /* UIView+extension.swift in Sources */,
-				008A50A7257624A400B3D926 /* Momatu_GalleryTests.swift in Sources */,
-				008A50D7257678F400B3D926 /* URLSession+extension.swift in Sources */,
-				008A51042577B99900B3D926 /* Cache.swift in Sources */,
-				008A50E525772E5700B3D926 /* ImageCell.swift in Sources */,
-				00B8F6D325789970001E14DB /* GridLayout.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		008A50A9257624A400B3D926 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				008A50C52576264D00B3D926 /* Server.swift in Sources */,
-				008A50DF257697A200B3D926 /* Image.swift in Sources */,
-				008A51162578712800B3D926 /* Constants.swift in Sources */,
-				00B8F6DC257A10C3001E14DB /* UIView+extension.swift in Sources */,
-				008A50B2257624A400B3D926 /* Momatu_GalleryUITests.swift in Sources */,
-				008A50D8257678F400B3D926 /* URLSession+extension.swift in Sources */,
-				008A51052577B99900B3D926 /* Cache.swift in Sources */,
-				008A50E625772E5700B3D926 /* ImageCell.swift in Sources */,
-				00B8F6D425789970001E14DB /* GridLayout.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		008A50A4257624A400B3D926 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 008A508B2576249E00B3D926 /* Momatu Gallery */;
-			targetProxy = 008A50A3257624A400B3D926 /* PBXContainerItemProxy */;
-		};
-		008A50AF257624A400B3D926 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 008A508B2576249E00B3D926 /* Momatu Gallery */;
-			targetProxy = 008A50AE257624A400B3D926 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		008A50952576249E00B3D926 /* Main.storyboard */ = {
@@ -683,94 +481,6 @@
 			};
 			name = Release;
 		};
-		008A50BA257624A400B3D926 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6DD5E49B65272CE39435BCB /* Pods-Momatu GalleryTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RHABLFUM57;
-				INFOPLIST_FILE = "Momatu GalleryTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momatu Gallery.app/Momatu Gallery";
-			};
-			name = Debug;
-		};
-		008A50BB257624A400B3D926 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B145040D8AE1BB87464A37F /* Pods-Momatu GalleryTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RHABLFUM57;
-				INFOPLIST_FILE = "Momatu GalleryTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Momatu Gallery.app/Momatu Gallery";
-			};
-			name = Release;
-		};
-		008A50BD257624A400B3D926 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C908C57CE938B0F9B49D668 /* Pods-Momatu Gallery-Momatu GalleryUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RHABLFUM57;
-				INFOPLIST_FILE = "Momatu GalleryUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Momatu Gallery";
-			};
-			name = Debug;
-		};
-		008A50BE257624A400B3D926 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5C1AA807C3DFAE3FF5E7590C /* Pods-Momatu Gallery-Momatu GalleryUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = RHABLFUM57;
-				INFOPLIST_FILE = "Momatu GalleryUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lexon.Momatu-GalleryUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Momatu Gallery";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -788,24 +498,6 @@
 			buildConfigurations = (
 				008A50B7257624A400B3D926 /* Debug */,
 				008A50B8257624A400B3D926 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		008A50B9257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				008A50BA257624A400B3D926 /* Debug */,
-				008A50BB257624A400B3D926 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		008A50BC257624A400B3D926 /* Build configuration list for PBXNativeTarget "Momatu GalleryUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				008A50BD257624A400B3D926 /* Debug */,
-				008A50BE257624A400B3D926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

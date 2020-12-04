@@ -9,13 +9,4 @@ target 'Momatu Gallery' do
   pod 'SwiftyJSON'
   pod 'SnapKit'
 
-  target 'Momatu GalleryTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'Momatu GalleryUITests' do
-    # Pods for testing
-  end
-
 end

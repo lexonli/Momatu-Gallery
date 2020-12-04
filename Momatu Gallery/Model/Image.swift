@@ -24,6 +24,7 @@ struct Image: Decodable {
         case downloadUrl = "download_url"
     }
     
+    //returns the image url with the optimized size for the screen
     lazy var imageUrl: String = {
         var pixelWidth = width
         var pixelHeight = height
